@@ -88,7 +88,6 @@ width: 100%;
 
 }
 
-
 .groups {
   margin: auto;
   width: 25%;
@@ -104,6 +103,13 @@ width: 100%;
     font-family: sans-serif;
     font-size: 17px;
     margin: 30px;
+  }
+
+  .PerTable{
+    display: block;
+    width: 75%;
+    height:auto;
+    margin: auto;
   }
 /* .center {
   margin: auto;
