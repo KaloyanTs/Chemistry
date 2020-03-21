@@ -1,5 +1,6 @@
 body{
   background-image: -webkit-linear-gradient(0deg,aquamarine, rgb(211, 211, 136));
+  font-family: sans-serif;
 }
 
 .topnav {
@@ -19,13 +20,13 @@ position: fixed;
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  width: 70px;
+  min-width: 100px;
   color: #f2f2f2;
   display: inline-block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 18px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 22px;
   border-color: transparent;
   border-style: solid;
   transition: color 1s,border linear 0.5s;
@@ -51,7 +52,6 @@ position: fixed;
     padding: 12px;
     background-image: -webkit-linear-gradient(0deg,rgb(200, 211, 136), rgb(211, 211, 136));
     border: 3px solid rgb(255, 255, 146);
-    border-bottom-color: transparent;
     margin-top: 5px;
     margin-right: 16px;
     height: 20px;
@@ -59,17 +59,28 @@ position: fixed;
   }
 
   .topnav span{
-        font-family: 'Sedgwick Ave Display', cursive;
+        font-family: 'Stalinist One', cursive;
         /* border: 3px solid black;   */
         margin: auto;
         display: inline-block;
-        width: 50%;
+        width: 35%;
         text-align: center;
-        font-size: 40px;
+        font-size: 44px;
         background-image: -webkit-linear-gradient(90deg,aquamarine, rgb(211, 211, 136));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         /* float: left; */
+  }
+
+  h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 100px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    background-image: -webkit-linear-gradient(90deg,red,yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .groups td{
@@ -131,15 +142,17 @@ position: fixed;
 
 .ElementInfo p{
   float:left;
-  width: 50%;
-  font-style: sans-serif;
-  font-size: 16px;
+  width: 60%;
+  font-family: sans-serif;
+  font-size: 26px;
   color: black;
 }
 .ElementInfo{
   margin: 30px 20px;
+  margin-top: 100px;
   height:250px;
 }
+
 /* .center {
   margin: auto;
   width: 25%;
