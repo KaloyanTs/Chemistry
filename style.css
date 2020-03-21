@@ -11,12 +11,15 @@ body{
   /* border: 1px solid; */
 display: inline-block;
 width: 100%;
+position: fixed;
+  top: 0;
+  left: 0;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  width: 5%;
+  width: 70px;
   color: #f2f2f2;
   display: inline-block;
   text-align: center;
@@ -110,7 +113,33 @@ width: 100%;
     width: 75%;
     height:auto;
     margin: auto;
+    margin-top: 100px;
   }
+
+  .Element{
+    float: right;
+    display: inline-block;
+    width: 25%;
+    margin:20px;
+    /*-webkit-transition: -webkit-transform .8s ease-in-out;*/
+  }
+
+.Element:hover {
+  -webkit-transform: rotate(3600deg);
+    -webkit-transition-duration: 60s;
+}
+
+.ElementInfo p{
+  float:left;
+  width: 50%;
+  font-style: sans-serif;
+  font-size: 16px;
+  color: black;
+}
+.ElementInfo{
+  margin: 30px 20px;
+  height:250px;
+}
 /* .center {
   margin: auto;
   width: 25%;
